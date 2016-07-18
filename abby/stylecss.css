@@ -1,0 +1,73 @@
+html{
+	font-family:'Helvetica';
+	background-image: url(peace.png);
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-position: 100% 100px;
+}
+#logos  img{
+	width: 30px;
+	height: 30px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+#logos a{
+	width: 30px;
+	height: 30px;
+	padding-left: 10px;
+	padding-bottom: 10px;	
+}
+#container{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#page{
+	position:absolute;left:20%; right:20%;
+	margin: 0px auto;
+	box-shadow:0px 0px 10px #999;
+}
+#my_name{
+	position:relative; top:5px;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px #999;
+}
+#photo_container{
+	padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px #999;
+}
+#photo{
+    width: 50vh;
+    height: 50vh;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+#my_name{
+	padding-top: 20px;
+	text-align: center;
+	height: 150px;
+	position:relative;bottom: 20px;
+}
+.row{
+	padding-top: 20px;
+	font-family:'Francois One', sans-serif;
+	text-align: left;
+
+}
+
+ul{
+	line-height: 2em;
+	font-size: 18px;
+	
+}
+li{
+	color:#37B5B2;
+	line-height: 2em;
+	font-size: 28px;
+}
